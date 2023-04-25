@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <link rel="shortcut icon" href="schoollogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="admission.css">
+</head>
+<body>
+
+    <div class="banner-top">
+        <div class="left">
+            <a class="hover-left" href="#"><i class="fa-solid fa-envelope"></i> chandansingh295@gmail.com</a>
+            <a class="hover-left" href="tel:+919661144237"><i class="fa-sharp fa-solid fa-phone"></i> +91 9661144237</a>
+        </div>
+        <div class="right">
+            <a class="hover-btn" href="#"><i class="fa-solid fa-user-pen"></i> Admission Open</a>
+            <a class="hover-btn" href="#"><i class="fa-solid fa-user"></i> Login</a>
+        </div>
+        <div class="hamburger">
+                
+        </div>
+    </div>
+
+    <section class="hero">
+            <video src="video.mp4" autoplay muted loop></video>
+
+            <nav class="navBar">
+                <div class="logo">
+                    <img src="schoollogo.png" alt="Logo">
+                </div>
+                <ul class="nav-items">
+                    <li><a href="#" class="hover-links ">Home</a></li>
+                    <li><a href="about.html" class="hover-links">About us</a></li>
+                    <li><a href="admission.html" class="hover-links active">Admission</a></li>
+                    <li><a href="#" class="hover-links">Enquiry</a></li>
+                    <li><a href="#" class="hover-links">Gallary</a></li>
+                    <li><a href="#" class="hover-links">Recruitment </a></li>
+                    <li><a href="contact.html" class="hover-links">Contact Us</a></li>
+                </ul>
+            </nav>
+
+    </section>
+
+
+    <section class="form">
+        <h1>Personal Details</h1>
+        <div class="row-1 flex">
+            <div class="col-1">
+                <label for="admission">Name:</label>
+                <small aria-required="">*</small><br>
+                <input type="text">
+            </div>
+            <div class="col-2">
+                <label for="admission">Fathers Name:</label>
+                <small aria-required="">*</small><br>
+                <input type="text">
+            </div>
+            <div class="col-3">
+                <label for="admission">Mothers Name:</label>
+                <small>*</small><br>
+                <input type="text">
+            </div>
+            <div class="col-4">
+                <label for="dob">Date of Birth:</label>
+                <small>*</small><br>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            
+        </div>
+
+        <div class="row-2 flex">
+            <div class="col-5">
+                <label for="gender">Gender:</label><br>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="col-6">
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+            </div>
+
+            <div class="col-7">
+                <label for="address">Address:</label><br>
+                <textarea id="address" name="address" rows="2" required></textarea>
+            </div>
+        </div>
+
+        <button class="submit-btn">Submit</button>
+    </section>
+
+    <footer>
+        <div class="col1">
+            <ul>
+                <li><a href="#" class="footer-links"><img src="schoollogo.png" alt=""></a></li>
+                <li><a href="#" class="footer-links hover-left"><i class="fa-solid fa-location-dot"></i>  Pakaridih , Amnour , Saran , Bihar – 841218</a></li>
+                <li> <a class="hover-left" href="tel:+919661144237"><i class="fa-sharp fa-solid fa-phone"></i> +91 9661144237</a></li>
+                <li><a class="hover-left" href="#"><i class="fa-solid fa-envelope"></i> chandansingh295@gmail.com</a></li>
+                <li><h3 style="color: white;"><i class="fa-solid fa-mobile"></i>  Download Mobile App</h3></li>
+                <button><img src="playstore.png">Get it on playstore</button>
+            </ul>
+        </div>
+        <div class="col2">
+            
+        </div>
+        
+    </footer>
+      
+    <script src="https://kit.fontawesome.com/1a46b5374a.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

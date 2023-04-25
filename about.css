@@ -1,0 +1,45 @@
+.main{
+    padding: 20px 80px;
+    overflow: hidden;
+}
+
+.container-about{
+    padding: 10px 80px;
+    margin: 10px;
+    /* overflow: hidden; */
+}
+
+.right-content{
+    text-align: start;
+}
+
+.right-content h1{
+    font-family: 'Poppins';
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.right-content h1::after{
+    content: '';
+    width: 20%;
+    height: 2.5px;
+    background:orangered ;
+    display: block;
+
+}
+
+.right-content p{
+    
+    font-family: 'Poppins';
+    line-height: 2rem;
+}
+
+.right-content li{
+    font-family: 'Poppins';
+    list-style: disc;
+    font-weight: 500;
+    padding: 2px;
+    line-height: 1.5rem;
+}
+

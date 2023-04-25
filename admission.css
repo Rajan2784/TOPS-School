@@ -1,0 +1,47 @@
+.form{
+    padding: 20px 120px;
+    background: #f5f5f5;
+}
+
+.form h1{
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+}
+
+.form h1::after{
+    content: '';
+    width: 10%;
+    display: block;
+    height: 2.5px;
+    background: orangered;
+}
+
+.row-1{
+    justify-content: start;
+    gap: 140px;
+}
+
+.row-2{
+    justify-content: start;
+    gap: 240px;
+    margin-top: 20px;
+}
+
+.form input{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 150px;
+    height: 2rem;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.submit-btn{
+    width: 200px;
+    padding: 10px;
+    background: orangered;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}
